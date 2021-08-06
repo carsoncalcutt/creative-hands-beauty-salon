@@ -8,6 +8,8 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 
 RewriteRule ^contact-us contact-us.html [NC,L]
 
+RewriteRule ^index index.html [NC,L]
+
 RewriteRule ^photos photos.html [NC,L]
 
 RewriteRule ^services services.html [NC,L]

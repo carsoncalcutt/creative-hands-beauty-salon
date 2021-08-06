@@ -7,20 +7,49 @@
   <meta name='keywords' content='Hair,Salon,Beauty'>
   <meta name='author' content='Carson Calcutt,Labretta McBryde'>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='icon' href='/images/favicon.png' type='image/png' sizes='16x16'>
-  <link rel='stylesheet' href='/css/bootstrap.min.css'>
-  <script src='/js/jquery.min.js'></script>
-  <script src='/js/bootstrap.min.js'></script>
-  <link rel='stylesheet' type='text/css' href='/css/main.css'>
+  <link rel='icon' href='images/favicon.png' type='image/png' sizes='16x16'>
+  <link rel='stylesheet' href='css/bootstrap.min.css'>
+  <script src='js/jquery.min.js'></script>
+  <script src='js/bootstrap.min.js'></script>
+  <link rel='stylesheet' type='text/css' href='css/main.css'>
+  <link rel='stylesheet' type='text/css' href='css/fontawesome.min.css'>
   <script>
     $(document).ready(function(){
-      $('#navbar').load('assets/navbar.html');
       $('#photos').addClass('active');
     });
   </script>
 </head>
 <body>
-  <div id='navbar'></div>
+  <nav class='navbar navbar-inverse navbar-fixed-top'>
+    <div class='container'>
+      <div class='navbar-header'>
+        <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#myNavbar'>
+          <span class='icon-bar'></span>
+          <span class='icon-bar'></span>
+          <span class='icon-bar'></span>
+        </button>
+        <a class='navbar-brand' href='index'>Creative Hands Salon</a>
+      </div>
+      <div class='collapse navbar-collapse' id='myNavbar'>
+        <ul class='nav navbar-nav navbar-right'>
+          <ul class='nav navbar-nav'>
+            <li id='home'>
+              <a href='index'>Home</a>
+            </li>
+            <li id='services'>
+              <a href='services'>Services</a>
+            </li>
+            <li id='photos'>
+              <a href='photos'>Photos</a>
+            </li>
+            <li id='contact-us'>
+              <a href='contact-us'>Contact Us</a>
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <div class='jumbotron'>
     <div class='container'>
       <h2>Photos</h2>
@@ -29,24 +58,24 @@
   <div class='container'>
     <div class='row'>
       <div class='column'>
-        <img src='/images/photo1.jpg' style='width:100%'>
-        <img src='/images/photo2.jpg' style='width:100%'>
-        <img src='/images/photo3.jpg' style='width:100%'>
+        <img src='images/photo1.jpg' style='width:100%'>
+        <img src='images/photo2.jpg' style='width:100%'>
+        <img src='images/photo3.jpg' style='width:100%'>
       </div>
       <div class='column'>
-        <img src='/images/photo4.jpg' style='width:100%'>
-        <img src='/images/photo5.jpg' style='width:100%'>
-        <img src='/images/photo6.jpg' style='width:100%'>
+        <img src='images/photo4.jpg' style='width:100%'>
+        <img src='images/photo5.jpg' style='width:100%'>
+        <img src='images/photo6.jpg' style='width:100%'>
       </div>
       <div class='column'>
-        <img src='/images/photo7.jpg' style='width:100%'>
-        <img src='/images/photo8.jpg' style='width:100%'>
-        <img src='/images/photo9.jpg' style='width:100%'>
+        <img src='images/photo7.jpg' style='width:100%'>
+        <img src='images/photo8.jpg' style='width:100%'>
+        <img src='images/photo9.jpg' style='width:100%'>
       </div>
       <div class='column'>
-        <img src='/images/photo10.jpg' style='width:100%'>
-        <img src='/images/photo11.jpg' style='width:100%'>
-        <img src='/images/photo12.jpg' style='width:100%'>
+        <img src='images/photo10.jpg' style='width:100%'>
+        <img src='images/photo11.jpg' style='width:100%'>
+        <img src='images/photo12.jpg' style='width:100%'>
       </div>
     </div>
     <p class='footer-credit'>

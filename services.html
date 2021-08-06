@@ -7,20 +7,49 @@
   <meta name='keywords' content='Hair,Salon,Beauty'>
   <meta name='author' content='Carson Calcutt,Labretta McBryde'>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='icon' href='/images/favicon.png' type='image/png' sizes='16x16'>
-  <link rel='stylesheet' href='/css/bootstrap.min.css'>
-  <script src='/js/jquery.min.js'></script>
-  <script src='/js/bootstrap.min.js'></script>
-  <link rel='stylesheet' type='text/css' href='/css/main.css'>
+  <link rel='icon' href='images/favicon.png' type='image/png' sizes='16x16'>
+  <link rel='stylesheet' href='css/bootstrap.min.css'>
+  <script src='js/jquery.min.js'></script>
+  <script src='js/bootstrap.min.js'></script>
+  <link rel='stylesheet' type='text/css' href='css/main.css'>
+  <link rel='stylesheet' type='text/css' href='css/fontawesome.min.css'>
   <script>
     $(document).ready(function(){
-      $('#navbar').load('assets/navbar.html');
       $('#services').addClass('active');
     });
   </script>
 </head>
 <body>
-  <div id='navbar'></div>
+  <nav class='navbar navbar-inverse navbar-fixed-top'>
+    <div class='container'>
+      <div class='navbar-header'>
+        <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#myNavbar'>
+          <span class='icon-bar'></span>
+          <span class='icon-bar'></span>
+          <span class='icon-bar'></span>
+        </button>
+        <a class='navbar-brand' href='index'>Creative Hands Salon</a>
+      </div>
+      <div class='collapse navbar-collapse' id='myNavbar'>
+        <ul class='nav navbar-nav navbar-right'>
+          <ul class='nav navbar-nav'>
+            <li id='home'>
+              <a href='index'>Home</a>
+            </li>
+            <li id='services'>
+              <a href='services'>Services</a>
+            </li>
+            <li id='photos'>
+              <a href='photos'>Photos</a>
+            </li>
+            <li id='contact-us'>
+              <a href='contact-us'>Contact Us</a>
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <div class='jumbotron'>
     <div class='container'>
       <h2>Services</h2>
@@ -30,7 +59,7 @@
     <div class='row-eq-height'>
       <div class='col-sm-4'>
         <figure>
-          <img src='/images/shampoo.png' style='width:100%;'>
+          <img src='images/shampoo.png' style='width:100%;'>
           <figcaption>
             <a href='https://unsplash.com/@charissek'>Photo by Charisse Kenion</a>
           </figcaption>
@@ -52,7 +81,7 @@
       </div>
       <div class='col-sm-4'>
         <figure>
-          <img src='/images/iron.png' style='width:100%;'>
+          <img src='images/iron.png' style='width:100%;'>
           <figcaption style='text-align:right;'>
             <a href='https://unsplash.com/@element5digital'>Photo by Element5 Digital</a>
           </figcaption>
@@ -62,7 +91,7 @@
     <div class='row-eq-height'>
       <div class='col-sm-4'>
         <figure>
-          <img src='/images/carpet.png' style='width:100%;'>
+          <img src='images/carpet.png' style='width:100%;'>
           <figcaption>
             <a href='https://unsplash.com/@sharisocial'>Photo by Shari Sirotnak</a>
           </figcaption>
@@ -84,7 +113,7 @@
       </div>
       <div class='col-sm-4'>
         <figure>
-          <img src='/images/equipment.png' style='width:100%;'>
+          <img src='images/equipment.png' style='width:100%;'>
           <figcaption style='text-align:right;'>
             <a href='https://unsplash.com/@alysa'>Photo by Alysa Bajenaru</a>
           </figcaption>
@@ -94,7 +123,7 @@
     <div class='row-eq-height'>
       <div class='col-sm-4'>
         <figure>
-          <img src='/images/brushes.jpeg' style='width:100%;'>
+          <img src='images/brushes.jpeg' style='width:100%;'>
           <figcaption>
             <a href='https://unsplash.com/@sharisocial'>Photo by Shari Sirotnak</a>
           </figcaption>
