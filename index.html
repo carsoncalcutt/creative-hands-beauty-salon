@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <title>Home - Creative Hands Salon</title>
+  <meta charset='utf-8'>
+  <meta name='description' content='Creative Hands Beauty Salon'>
+  <meta name='keywords' content='Hair,Salon,Beauty'>
+  <meta name='author' content='Carson Calcutt,Labretta McBryde'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='icon' href='/images/favicon.png' type='image/png' sizes='16x16'>
+  <link rel='stylesheet' href='/css/bootstrap.min.css'>
+  <script src='/js/jquery.min.js'></script>
+  <script src='/js/bootstrap.min.js'></script>
+  <link rel='stylesheet' type='text/css' href='/css/main.css'>
+  <script>
+    $(document).ready(function(){
+      $('#navbar').load('assets/navbar.html');
+      $('#home').addClass('active');
+    });
+  </script>
+</head>
+<body class='splash-page'>
+  <div id='navbar'></div>
+  <div class='container'>
+    <div class='horizontal-align'>
+      <div class='vertical-align'>
+        <div class='splash-text'>
+          <h1>Creative Hands Salon</h1>
+          <h2>Promoting Healthy Hair</h2>
+          <div id='fb-root'></div>
+          <script async defer crossorigin='anonymous' src='https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0' nonce='PoFx6Oqm'></script>
+          <div class='fb-like' data-href='https://www.facebook.com/creativehandsbeauty/' data-width='' data-layout='button_count' data-action='like' data-size='large' data-share='true'></div>
+        </div>
+      </div>
+      <p class='splash-credit'>
+        <a href='https://unsplash.com/@guipetri'>Photo by Guilherme Petri</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
